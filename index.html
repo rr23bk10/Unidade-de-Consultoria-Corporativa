@@ -1,377 +1,240 @@
 <!DOCTYPE html>
-<html lang="pt">
-  <head>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Unidade de Consultoria Corporativa</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<!-- Mobile Specific Meta -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<!-- Favicon-->
-	<link rel="shortcut icon" href="images/about.png">
-	<!-- Author Meta -->
-	<meta name="author" content="Renan Ricardo Pereira Lima">
-	<!-- Meta Description -->
-	<meta name="description" content="Agência de Inovação e Tecnologia Empresarial.">
-	<!-- Meta Keyword -->
-	<meta name="keywords" content="Agência; Tecnologia; Inovação; Empresarial">
-	<!-- meta character set -->
-	<meta name="url" content="">
-    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-    
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-
-    <link rel="stylesheet" href="css/aos.css">
-
-    <link rel="stylesheet" href="css/ionicons.min.css">
-    
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  			<!-- Global site tag (gtag.js) - Google Analytics -->
-
-	  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154602020-1"></script>
-	  <div class="bg-top navbar-light">
-    	<div class="container">
-    		<div class="row no-gutters d-flex align-items-center align-items-stretch">
-    			<div class="col-md-4 d-flex align-items-center py-4">
-    				<a class="navbar-brand" href="index.html">UCC</a>
-    			</div>
-	    		<div class="col-lg-8 d-block">
-		    		<div class="row d-flex">
-					    <div class="col-md d-flex topper align-items-center align-items-stretch py-md-4">
-					    	<div class="icon d-flex justify-content-center align-items-center"><span class="icon-paper-plane"></span></div>
-					    	<div class="text">
-					    		<span>Envie um email</span>
-						    	<span>renanricardo.ucc@gmail.com</span>
-						    </div>
-					    </div>
-					    <div class="col-md d-flex topper align-items-center align-items-stretch py-md-4">
-					    	<div class="icon d-flex justify-content-center align-items-center"><span class="icon-whatsapp"></span></div>
-						    <div class="text">
-						    	<span>Fale conosco</span>
-						    	<span>+55 43 98423 4418</span>
-						    </div>
-					    </div>
-					    <div class="col-md topper d-flex align-items-center justify-content-end">
-					    	<p class="mb-0 d-block">
-					    		<a href="https://api.whatsapp.com/send?phone=5543984234418" target="_blank" class="btn py-2 px-3 btn-primary">
-					    			<span>Consulta grátis</span>
-					    		</a>
-					    	</p>
-					    </div>
-				    </div>
-			    </div>
-		    </div>
-		  </div>
-    </div>
-	  <nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
-	    <div class="container d-flex align-items-center">
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="oi oi-menu"></span> Menu
-			<div class="site-mobile-menu site-navbar-target">
-				<div class="site-mobile-menu-header">
-				  <div class="site-mobile-menu-close mt-3">
-					<span class="icon-close2 js-menu-toggle"></span>
-				  </div>
-				</div>
-				<div class="site-mobile-menu-body"></div>
-			  </div>
-	      </button>
-	      <div class="collapse navbar-collapse" id="ftco-nav">
-	        <ul class="navbar-nav mr-auto">
-	        	<li class="nav-item active"><a href="index.html" class="nav-link pl-0">Home</a></li>
-				<li class="nav-item"><a href="#sobre" class="nav-link">Sobre nós</a></li>
-				<li class="nav-item"><a href="#serviços" class="nav-link">Serviços</a></li>
-	        </ul>
-	      </div>
-	    </div>
-	  </nav>
-    <!-- END nav -->
-    
-    <section class="home-slider owl-carousel">
-      <div class="slider-item" style="background-image:url(images/solar.jpg);">
-      	<div class="overlay"></div>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header class="header">
         <div class="container">
-          <div class="row no-gutters slider-text align-items-center justify-content-start" data-scrollax-parent="true">
-          <div class="col-md-7 ftco-animate">
-          	<span class="subheading">Mentorias estratégicas para startups implacáveis</span>
-            <h1 class="mb-4">+INOVAÇÃO</h1>
-          </div>
+            <a href="index.html" class="logo">
+                <img src="Imagens/Unidade-de-Consultoria-Corporativa---Logo.png" alt="UCC Logo">
+                <span>Unidade de Consultoria Corporativa</span>
+            </a>
+            
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#equipe">Equipe</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+            
+            <div class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
         </div>
-        </div>
-      </div>
+    </header>
 
-      <div class="slider-item" style="background-image:url(images/buy.jpg);">
-      	<div class="overlay"></div>
+    <!-- Hero Section -->
+    <section class="hero">
         <div class="container">
-          <div class="row no-gutters slider-text align-items-center justify-content-start" data-scrollax-parent="true">
-          <div class="col-md-7 ftco-animate">
-          	<span class="subheading">Assistência customizada para empresas sensacionais</span>
-            <h1 class="mb-4">+EMPREENDEDORISMO</h1>
-          </div>
+            <div class="hero-content">
+                <h1>Transformando desafios em oportunidades de negócio</h1>
+                <p class="subtitle">Soluções personalizadas para impulsionar seu crescimento</p>
+                <a href="#contato" class="btn btn-primary">Fale com nossos especialistas</a>
+            </div>
+            <div class="hero-image">
+            </div>
         </div>
-        </div>
-      </div>
-    </section><a name="Sobre"></a>
-
-		<section class="ftco-section">
-			<div class="container">
-				<div class="row d-flex">
-					<div class="col-md-5 order-md-last wrap-about align-items-stretch">
-						<div class="wrap-about-border ftco-animate">
-							<div class="img" style="background-image: url(images/about.png); border"></div>
-							<div class="text">
-								<h3>SOBRE NÓS</h3>
-								<p align="Justify">Fundada em 2014, a UCC iniciou as atividades desenvolvendo treinamentos nas áreas de gestão da qualidade e atendimento ao cliente. No final de 2018, tornar-se oficialmente um escritório de empreendedorismo e inovação.</"center"><p></p>
-								<p align="Justify">Temos a missão de apoiar o desenvolvimento sustentável de negócios inovadores e fomentar o empreendedorismo no Brasil.</"center"><p></p>
-								<p align="Justify">Temos a visão da excelência no desenvolvimento de projetos, contribuindo para a construção de um planeta mais inovador e sustentável.</"center"><p></p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-7 wrap-about pr-md-4 ftco-animate">
-			  <h2 class="mb-4">O QUE OFERECEMOS</h2>
-			  			<p align="Justify">A Unidade de Consultoria Corporativa oferece serviços e soluções focada em melhorar os resultados de pequenas e médias empresas.</"center"><p></p>
-						<p align="Justify">Proporcionamos mais eficiência às organizações através da implementação de melhores práticas em governança corporativa, alinhando os interesses dos acionistas com os interesses dos stakeholders, de forma a aumentar o valor da organização.</"center"><p></p>
-						<p align="Justify">Analisamos dados, desenvolvemos, implantamos estratégias de crescimento e oferecemos 4 tipos de soluções nas seguintes áreas:</"center"><p></p>
-						<div class="row mt-5">
-							<div class="col-lg-6">
-								<div class="services active text-center">
-									<div class="icon mt-2 d-flex justify-content-center align-items-center"><span class="flaticon-collaboration"></span></div>
-									<div class="text media-body">
-										<h3>Assessoria</h3>
-										<p>Soluções para melhorar a cultura e tornar processos de gerenciamento mais assertivos.</p>
-									</div>
-								</div>
-								<div class="services text-center">
-									<div class="icon mt-2 d-flex justify-content-center align-items-center"><span class="flaticon-analysis"></span></div>
-									<div class="text media-body">
-										<h3>Marketing</h3>
-										<p>Soluções para gerar engajamento e maior conversão publicitária de clientes.</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-6">
-								<div class="services text-center">
-									<div class="icon mt-2 d-flex justify-content-center align-items-center"><span class="flaticon-search-engine"></span></div>
-									<div class="text media-body">
-										<h3>Software</h3>
-										<p>Soluções para desenvolver website, dispositivo mobile e ferramentas descentralizadas.</p>
-									</div>
-								</div>
-								<div class="services text-center">
-									<div class="icon mt-2 d-flex justify-content-center align-items-center"><span class="flaticon-handshake"></span></div>
-									<div class="text media-body">
-										<h3>Investimento</h3>
-										<p>Soluções para criar capital e gerar métricas de indicadores mais econômicas.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		
-		<section class="ftco-intro ftco-no-pb img" style="background-image: url(images/bg_3.jpg);">
-    	<div class="container">
-    		<div class="row justify-content-center mb-5">
-          <div class="col-md-10 text-center heading-section heading-section-white ftco-animate">
-            <h2 class="mb-0">Confira nossos resultados</h2>
-          </div>
-        </div>	
-    	</div>
     </section>
 
-		<section class="ftco-counter" id="section-counter">
-    	<div class="container">
-    		<div class="row d-md-flex align-items-center justify-content-center">
-    			<div class="wrapper">
-    				<div class="row d-md-flex align-items-center">
-		          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-		            <div class="block-18">
-		            	<div class="icon"><span class="flaticon-doctor"></span></div>
-		              <div class="text">
-		                <strong class="number" data-number="1568">0</strong>
-		                <span>contratos firmados</span>
-		              </div>
-		            </div>
-		          </div>
-		          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-		            <div class="block-18">
-		            	<div class="icon"><span class="flaticon-doctor"></span></div>
-		              <div class="text">
-		                <strong class="number" data-number="515">0</strong>
-		                <span>clientes atendidos</span>
-		              </div>
-		            </div>
-		          </div>
-		          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-		            <div class="block-18">
-		            	<div class="icon"><span class="flaticon-doctor"></span></div>
-		              <div class="text">
-		                <strong class="number" data-number="32">0</strong>
-		                <span>metas atingidas</span>
-		              </div>
-		            </div>
-		          </div>
-		          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-		            <div class="block-18">
-		            	<div class="icon"><span class="flaticon-doctor"></span></div>
-		              <div class="text">
-		                <strong class="number" data-number="10298">0</strong>
-		                <span>tarefas concluídas</span>
-		              </div>
-		            </div>
-		          </div>
-	          </div>
-          </div>
+    <!-- Serviços -->
+    <section id="servicos" class="services">
+        <div class="container">
+            <h2>Serviços</h2>
+            <p class="section-intro">Consultoria em diversas áreas para atender às necessidades do seu negócio</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Estratégia Empresarial</h3>
+                    <p>Desenvolvimento de planos estratégicos para crescimento sustentável e aumento da competitividade.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="icon">
+                        <i class="fas fa-users-cog"></i>
+                    </div>
+                    <h3>Gestão Organizacional</h3>
+                    <p>Otimização de processos, estrutura organizacional e governança corporativa.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="icon">
+                        <i class="fas fa-digital-tachograph"></i>
+                    </div>
+                    <h3>Transformação Digital</h3>
+                    <p>Implementação de tecnologias e processos digitais para aumentar eficiência e inovação.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Fusões e Aquisições</h3>
+                    <p>Assessoria completa em processos de M&A, desde avaliação até integração pós-fusão.</p>
+                </div>
+            </div>
         </div>
-    	</div>
-	</section><a name="Serviços"></a>
+    </section>
 
-    <section class="ftco-section">
-			<div class="container">
-				<div class="row justify-content-center mb-5 pb-2">
-          <div class="col-md-8 text-center heading-section ftco-animate">
-            <h2 class="mb-4">Os melhores serviços para o seu negócio</h2>
-            <p>Nossa equipe visa o desenvolvimento intelectual dos empreendedores para uma formação cultural e complementar com melhorias mais assertivas em suas estruturas cognitivas.</p>
-          </div>
-        </div>
-				<div class="row no-gutters">
-					<div class="col-lg-4 d-flex">
-						<div class="services-2 noborder-left text-center ftco-animate">
-							<div class="icon mt-2 d-flex justify-content-center align-items-center"><span class="flaticon-analysis"></span></div>
-							<div class="text media-body">
-								<h3>Análise de mercado</h3>
-								<p>Avaliação técnica mercadológica que permite determinar o poder atrativo específico para sua empresa.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 d-flex">
-						<div class="services-2 text-center ftco-animate">
-							<div class="icon mt-2 d-flex justify-content-center align-items-center"><span class="flaticon-rating"></span></div>
-							<div class="text media-body">
-								<h3>Auditoria & avaliação</h3>
-								<p>Processo de identificar, medir e priorizar os riscos para focar das áreas auditáveis mais significativas.</p>
-							
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 d-flex">
-						<div class="services-2 text-center ftco-animate">
-							<div class="icon mt-2 d-flex justify-content-center align-items-center"><span class="flaticon-insurance"></span></div>
-							<div class="text media-body">
-								<h3>Computação cognitiva</h3>
-								<p>Criamos soluções em software, adaptadas para web (computador) e dispositivos móveis (smartphones e tablets).</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 d-flex">
-						<div class="services-2 noborder-left noborder-bottom text-center ftco-animate">
-							<div class="icon mt-2 d-flex justify-content-center align-items-center"><span class="flaticon-money"></span></div>
-							<div class="text media-body">
-								<h3>Investigação global</h3>
-								<p>Investição no desvios de conduta, não conformidades, fraudes, corrupção ou violação de dados.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 d-flex">
-						<div class="services-2 text-center noborder-bottom ftco-animate">
-							<div class="icon mt-2 d-flex justify-content-center align-items-center"><span class="flaticon-business"></span></div>
-							<div class="text media-body">
-								<h3>Metodologia assertiva</h3>
-								<p>Gerar mais resultados para seu negócio, utilizando-se da comunicação e do comportamento exclusivo.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 d-flex">
-						<div class="services-2 text-center noborder-bottom ftco-animate">
-							<div class="icon mt-2 d-flex justify-content-center align-items-center"><span class="flaticon-search-engine"></span></div>
-							<div class="text media-body">
-								<h3>Publicidade Digital</h3>
-								<p>Desenvolvimento de banners personalizados e campanhas em rede sociais com conteúdos assertivos.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-	
-    <footer class="ftco-footer ftco-bg-dark ftco-section">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-md-6 col-lg-3">
-            <div class="ftco-footer-widget mb-5">
-            	<h2 class="ftco-heading-2">Tem alguma dúvida?</h2>
-            	<div class="block-23 mb-3">
-	              <ul>
-	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+55 43 98423 4418</span></a></li>
-	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">renanricardopl@gmail.com</span></a></li>
-	              </ul>
-	            </div>
+    <!-- Sobre Nós -->
+    <section id="sobre" class="about">
+        <div class="container">
+            <div class="about-content">
+                <h2>Sobre nós</h2>
+                <p>A Unidade de Consultoria Corporativa é formada por especialistas terceirizados com vasta experiência em diversas indústrias, comprometidos em entregar resultados tangíveis para nossos clientes.</p>
+                
+                <div class="about-stats">
+                    <div class="stat">
+                        <span class="number" data-count="150">150</span>
+                        <span class="label">Projetos concluídos</span>
+                    </div>
+                    <div class="stat">
+                        <span class="number" data-count="40">40</span>
+                        <span class="label">Clientes atendidos</span>
+                    </div>
+                    <div class="stat">
+                        <span class="number" data-count="15">15</span>
+                        <span class="label">Anos de experiência</span>
+                    </div>
+                </div>
+                
+                <a href="#equipe" class="btn btn-secondary">Conheça nosso fundador</a>
             </div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-			<div class="ftco-footer-widget mb-5 ml-md-4">
-				<h2 class="ftco-heading-2">Links</h2>
-				<ul class="list-unstyled">
-				  <li><a href="#Index"><span class="ion-ios-arrow-round-forward mr-2"></span>Home</a></li>
-				  <li><a href="#Sobre"><span class="ion-ios-arrow-round-forward mr-2"></span>Sobre nós</a></li>
-				  <li><a href="#Serviços"><span class="ion-ios-arrow-round-forward mr-2"></span>Serviços</a></li>
-				</ul>
-			  </div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="ftco-footer-widget mb-5 ml-md-4">
-              <h2 class="ftco-heading-2">Network</h2>
-              <ul class="list-unstyled">
-                <li><a href="https://www.sisgama.com" target="_blank"><span class="ion-ios-arrow-round-forward mr-2"></span>Sisgama</a></li>
-              </ul>
+            <div class="about-image">
             </div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="ftco-footer-widget mb-5">
-            	<h2 class="ftco-heading-2 mb-0"></h2>
-            	<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
-              </ul>
+        </div>
+    </section>
+
+    <!-- Equipe -->
+    <section id="equipe" class="team">
+        <div class="container">
+            <h2>Nossa Equipe</h2>
+            <p class="section-intro">Profissionais experientes e comprometidos com a excelência</p>
+            
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="Imagens/Renan Ricardo.png" alt="Membro da Equipe">
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/rr23bk10/"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.facebook.com/rr23bk10/"><i class="fab fa-facebook"></i></a>
+                        </div>
+                    </div>
+                    <h3>Renan Ricardo Pereira Lima</h3>
+                    <p class="position">Fundador e Consultor</p>
+                    <p class="bio">15 anos de experiência em consultoria estratégica para pequenos e médios negócios.</p>
+                </div>
             </div>
-          </div>
         </div>
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <p class="footer-text m-0">Unidade de Consultoria Corporativa - &copy;<script>document.write(new Date().getFullYear());</script></p>
-          </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="contact">
+        <div class="container">
+            <div class="contact-form">
+                <h2>Fale Conosco</h2>
+                <form>
+                    <div class="form-group">
+                        <input type="text" placeholder="Seu nome" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Seu e-mail" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Seu telefone">
+                    </div>
+                    <div class="form-group">
+                        <select>
+                            <option value="">Assunto</option>
+                            <option value="estrategia">Estratégia Empresarial</option>
+                            <option value="gestao">Gestão Organizacional</option>
+                            <option value="digital">Transformação Digital</option>
+                            <option value="ma">Fusões e Aquisições</option>
+                            <option value="outro">Outro</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Sua mensagem" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h3>Informações de Contato</h3>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Av. Paulista, 1000 - São Paulo/SP</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <p>(11) 1234-5678</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>contato@uccconsultoria.com.br</p>
+                </div>
+                
+                <div class="social-media">
+                    <h4>Siga-nos</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="Imagens/Unidade-de-Consultoria-Corporativa---Logo200x200.png" alt="UCC Logo">
+                    <p>Unidade de Consultoria Corporativa</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#sobre">Sobre Nós</a></li>
+                        <li><a href="#equipe">Equipe</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-newsletter">
+                    <h4>Newsletter</h4>
+                    <p>Assine nossa newsletter para receber insights e novidades</p>
+                    <form>
+                        <input type="email" placeholder="Seu e-mail">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Unidade de Consultoria Corporativa. Todos os direitos reservados.</p>
+                <div class="legal-links">
+                </div>
+            </div>
+        </div>
     </footer>
-    
-  
 
-  <!-- loader -->
-  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
-
-
-  <script src="js/jquery.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/jquery.waypoints.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/jquery.animateNumber.min.js"></script>
-  <script src="js/scrollax.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-  <script src="js/google-map.js"></script>
-  <script src="js/main.js"></script>
-    
-  </body>
+    <script src="js/scripts.js"></script>
+</body>
 </html>
